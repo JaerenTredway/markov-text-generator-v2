@@ -151,7 +151,7 @@ public class MarkovTextGenerator {
         // you won't have any NGrams linked to the last "n" keys:
         for (int i = 0; i < words.size()-n; i++) {
             NGram nextNGram = new NGram( ); //empty NGram.
-            //add "n" words to into the empty n-gram:
+            //add "n" words into the empty n-gram:
             for (int j = 0; j < n; j++) {
                 nextNGram.addWord(words.get(i+j));
             }
@@ -294,7 +294,7 @@ public class MarkovTextGenerator {
 //        if (gibberishLength > words.size()) {
 //            gibberishLength = words.size();
 //        }
-        System.out.println("\nWELCOME TO JAEREN'S MARKOV TEXT GENERATOR");
+        System.out.println("\nWELCOME TO WILL'S MARKOV TEXT GENERATOR");
         System.out.print("\nThe text file you are using is: ");
         System.out.println(uri);
         System.out.println("The MRTG order is: " + n);

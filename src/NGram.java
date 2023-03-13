@@ -34,7 +34,7 @@ public final class NGram {
 
     //this overrides Object class hashCode() to prevent HashMap malfunction:
     @Override
-		public int hashCode( ) {
+		public int hashCode() {
 			int hash1 = words.get(0).hashCode();
 			int hash2 = words.get(1).hashCode();
 			return hash1 + hash2;
@@ -42,7 +42,7 @@ public final class NGram {
 
     //this overrides Object class equals() to prevent HashMap malfunction:
     @Override
-    public boolean equals( Object o) {
+    public boolean equals(Object o) {
         if (o == null) return false;
         if (!(o instanceof NGram)) return false;
         NGram b = (NGram) o;
