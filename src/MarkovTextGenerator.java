@@ -72,7 +72,7 @@ public class MarkovTextGenerator {
     private static ArrayList<NGram> nGramsList = new ArrayList<>();
 
 
-    // (no constructor)
+    // (no constructor: this is Main class)
 
 
     //********************** CLASS METHODS SECTION: *************************
